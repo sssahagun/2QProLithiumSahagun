@@ -271,12 +271,6 @@ nav a:hover:not(.active) {
     margin-top: 12px;
 }
 
-.stream iframe {
-    width: 853px;
-    height: 480px;
-    box-shadow: 0 0 8px 0 lightgray;
-}
-
 .below {
     padding: 20px 0;
     margin-left: 100px;
