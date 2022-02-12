@@ -1,0 +1,51 @@
+.header-pic-sub {
+    background-image: url("../images/court.jpg");
+    height: 240px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: relative;
+}
+
+.header-pic-sub h1 {
+    font-size: 50px;
+    position: absolute;
+    top: 110px;
+    left: 80px;
+    color: whitesmoke;
+    text-shadow: 4px 4px #0f2043;
+}
+
+.sub-sec h3, .sub-sec h4, aside h3 {
+    padding: 12px;
+}
+
+.sub-sec h3 {
+    color:#0f2043;
+    background-color: #fafafa;
+    box-shadow: 0 0 8px 0 lightgray;
+    border-left: 4px solid #e8af30;
+    border-right: 4px solid #e8af30;
+}
+
+.sub-sec h3:hover {
+    box-shadow: 0 0 8px 0 rgb(160, 160, 160);
+}
+
+.sub-sec h4 {
+    padding-bottom: 0;
+}
+
+.sub-sec p {
+    margin: 12px 50px 0 50px;
+    padding: 8px 0;
+}
+
+.sub-sec ul, .sub-sec ol {
+    margin: 12px 50px 0 100px;
+    padding: 8px 0;
+}
+
+.sub-sec li {
+    padding: 2px 0;
+}

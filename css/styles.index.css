@@ -1,0 +1,336 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.header-pic h1 {
+    font-size: 100px;
+    position: absolute;
+    top: 220px;
+    left: 120px;
+    color: whitesmoke;
+    text-shadow: 4px 4px #0f2043;
+}
+
+h2 {
+    color: black;
+    padding: 0px 0px 4px 0px;
+    border-bottom: 3px solid#e8af30;
+    width: fit-content;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, p, ol, ul {
+    margin: 0;
+}
+
+header {
+    background-color: #ffdb61;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;  
+    width: 100%;
+    z-index: 3;
+}
+
+section {
+    width: 1000px;    
+    padding: 16px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header-pic {
+    background-image: url("../images/court.jpg");
+    height: 600px;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+
+.logo, nav {
+    vertical-align: middle;
+}
+
+nav {
+    margin: auto;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    float: left;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav a {
+    display: block;
+    padding: 16px;
+    border-right: 1px solid #e8af30;
+}
+
+nav li:last-child a {
+    border: none;
+}
+
+nav a:link, nav a:visited {
+    color:#fef4ad;
+}
+
+nav a:hover:not(.active) {
+    background-color: #e8af30;
+}
+
+.active {
+    background-color: #e8af30;
+    color: #fef4ad;
+}
+
+.logo {
+    margin: 8px 300px 8px 4px;
+}
+
+.logo img {
+    height: 100px;
+}
+
+.sec-a {
+    text-align: center;
+    background-color: #fef4ad;
+    border-radius: 4px;
+    border-bottom: 3px solid #e8af30;
+}
+
+.sec-a-p {
+    margin: 20px 0px;
+}
+
+.sec-a p {
+    width: 75%;
+    margin: auto;
+    margin-bottom: 12px;
+}
+
+.wwd-btns {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 12px 20px 12px;
+}
+
+.btn {
+    box-shadow: 0 0 8px 0 lightgray;
+}
+
+.abtn {
+    font-weight: bold;
+    text-align: center;
+    width: 300px;
+    padding: 28px 0px;
+    background-color: #ffdb61;
+    border-bottom: 3px solid #0f2043;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.bbtn {
+    background-color: #3361ac;
+    border-bottom: 3px solid #0f2043;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    max-width: 300px;
+}
+
+.bbtn div {
+    padding: 12px;
+}
+
+.btn:hover {
+    box-shadow: 0 0 8px 0 rgb(160, 160, 160);
+}
+
+.sec-d, .stream {
+    border-bottom: 3px solid #e8af30;
+}
+
+.gallery {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery a {
+    width: 300px;
+    height: 400px;
+    padding: 8px;
+    border-bottom: 4px solid #3361ac;
+    box-shadow: 0px 0px 5px 0px #3361ac;
+    border-radius: 4px;
+    text-align: center;
+    color: black;
+}
+
+.gallerya {
+    background-image: url("../images/oldvb.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.galleryb {
+    background-image: url("../images/valdez.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.galleryc {
+    background-image: url("../images/mensntl.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.gallery a:hover, .gallery a:active {
+    border-bottom: 4px solid #0f2043;
+    box-shadow: 0px 0px 8px 0px #0f2043;
+}
+
+.gallery h3 {
+    background: rgb(245, 245, 245, 0.4);
+    padding: 4px;
+}
+
+.gallery p {
+    margin-top: 280px;
+    color: whitesmoke;
+    padding: 4px;
+}
+
+.sched h3, .schedcard h4, .partners h3 {
+    padding: 20px;
+}
+
+.schedcard {
+    border-left: 4px solid #0f2043;
+    box-shadow: 2px 2px lightgray;
+}
+
+.schedcard:first-of-type div {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.schedcard {
+    margin-left: 100px;
+    max-width: 600px;
+    background-color: #fafafa;
+    margin-bottom: 4px;
+}
+
+.schedcard:last-child {
+    margin-bottom: 0;
+}
+
+.schedcard p {
+    padding: 0 20px;
+}
+
+.schedcard div {
+    padding: 0 0 12px 0;
+    position: relative;
+}
+
+.schedcard div:hover {
+    cursor: pointer;
+}
+
+.schedcard div:hover .click {
+    display: block;
+}
+
+.gamerecs {
+    width: fit-content;
+    margin: auto;
+    margin-top: 12px;
+}
+
+.stream iframe {
+    width: 853px;
+    height: 480px;
+    box-shadow: 0 0 8px 0 lightgray;
+}
+
+.gamerecs video {
+    width: 426.5px;
+    height: 240px;
+    box-shadow: 0 0 8px 0 lightgray;
+}
+
+.below {
+    padding: 20px 0;
+    margin-left: 100px;
+}
+
+.click {
+    display: none;
+    position: absolute;
+    bottom: 12px;
+    right: 0px;
+    text-decoration: underline;
+    color: #3361ac;
+}
+
+.t-link:link, .t-link:visited {
+    color: #3361ac; 
+}
+
+.t-link:hover, .t-link:active {
+    text-decoration: underline;
+}
+
+.partners {
+    width: fit-content;
+    padding: 0 12px;
+    text-align: center;
+    justify-content: center;
+    background-color: #fafafa;
+    box-shadow: 0 0 8px 0 lightgray;
+}
+
+.partners div {
+    padding-bottom: 20px;
+}
+
+.partners img {
+    width: 80px;
+    padding: 0 4px;
+}
+
+footer {
+    background-color: #3361ac;
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-logo {
+    margin: 8px 4px 8px 4px;
+}
+
+.f-logo img {
+    height: 80px;
+}
+
+.cont {
+    border-left: 4px solid #0f2043;
+    padding: 16px;
+    color: #0f2043;
+}
