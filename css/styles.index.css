@@ -160,6 +160,14 @@ nav a:hover:not(.active) {
     box-shadow: 0 0 8px 0 rgb(160, 160, 160);
 }
 
+.sec-b {
+    margin-bottom: 0;
+}
+
+.sec-c {
+    margin-top: 0;
+}
+
 .sec-d, .stream {
     border-bottom: 3px solid #e8af30;
 }
@@ -266,12 +274,6 @@ nav a:hover:not(.active) {
 .stream iframe {
     width: 853px;
     height: 480px;
-    box-shadow: 0 0 8px 0 lightgray;
-}
-
-.gamerecs video {
-    width: 426.5px;
-    height: 240px;
     box-shadow: 0 0 8px 0 lightgray;
 }
 
