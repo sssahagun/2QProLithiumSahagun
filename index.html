@@ -19,10 +19,31 @@
             </div>
             <nav>
                 <ul>
-                    <li><a class="active">Home</a></li>
-                    <li><a href="">Articles</a></li>
-                    <li><a href="">Databases</a></li>
-                    <li><a href="">About Us</a></li>
+                    <li class="dropdown">
+                        <a class="active">Home</a>
+                        <div class="dropdown-content">
+                            <a href="htdocs/subpage-1.html">PH Volleyball History</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropbtn">Articles</a>
+                        <div class="dropdown-content">
+                            <a href="htdocs/subpage-4.html">Rise of the Phenom</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropbtn">Databases</a>
+                        <div class="dropdown-content">
+                            <a href="htdocs/subpage-2.html">Player Profiles</a>
+                            <a href="htdocs/subpage-3.html">Alyssa Valdez</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropbtn">About Us</a>
+                        <div class="dropdown-content">
+                            <a href="htdocs/citations.html">Citations</a>
+                        </div>
+                    </li>
                 </ul>
             </nav>
         </header>
@@ -87,7 +108,7 @@
                     <h3>Philippine Volleyball History</h3>
                     <p>Learn about the roots of volleyball in the Philippines and the Filipino contributions to the evolution of the sport here!</p>
                 </a>
-                <a class="galleryb">
+                <a class="galleryb" href="htdocs/subpage-2.html">
                     <h3>Player Profiles: Hall of Fame</h3>
                     <p>Get to know the most formidable players in both the national and international stage. Get a glimpse of their careers here!</p>
                 </a>
@@ -150,11 +171,11 @@
                 <img src="images/onesports.png">
             </div>
         </section>
-        <section>
+        <section class="disclaimer">
             <div>
                 Disclaimer: The contents of this website, the said organization and the information presented, 
                 are solely for the CS3 Website-Making Project's sake. The organization does not exist, especially the contact info presented.
-                The pictures, and technical information came from different sources. For the citations (except for the multimedia), click <a class="t-link" href="">here</a>.
+                The pictures, and technical information came from different sources. For the citations (except for the multimedia), click <a class="t-link" href="htdocs/citations.html">here</a>.
             </div>
             <br>
             <div>Multimedia Citations</div>
@@ -167,11 +188,18 @@
                 <img src="images/logo.png">
                 <img src="images/title.png">
             </div>
-            <div class="cont">
-                <div>For more information contact us:</div>
-                <br>
-                <div>09090909093</div>
-                <div>vbyouthph.org@gmail.com</div>
+            <div class="right">
+                <div class="sprites">
+                    <a href="https://www.instagram.com/pvlph/" class="sprite-a"></a>
+                    <a href="https://www.youtube.com/c/OneSportsPHL" class="sprite-b"></a>
+                    <a href="https://twitter.com/PVLph" class="sprite-c"></a>
+                </div>
+                <div class="cont">
+                    <div>For more information contact us:</div>
+                    <br>
+                    <div>09090909093</div>
+                    <div>vbyouthph.org@gmail.com</div>
+                </div>
             </div>
         </footer>
     </body>

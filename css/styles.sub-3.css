@@ -1,0 +1,63 @@
+.header-pic-sub {
+    background-image: url("../images/court.jpg");
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+}
+
+.header-pic-sub h1 {
+    font-size: 50px;
+    padding-top: 95px;
+    color: whitesmoke;
+    text-shadow: 4px 4px #0f2043;
+}
+
+.monikers {
+    text-align: center;
+    background-color: rgb(254, 244, 173, 0.5);
+    color: #0f2043;
+    padding: 12px 0;
+}
+
+.profile {
+    width: 400px;
+    height: fit-content;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;    
+    margin-bottom: 4px;
+    background-color: rgb(254, 244, 173, 0.3);
+}
+
+.row div {
+    padding: 8px;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.row:hover {
+    font-weight: bold;
+    background-color: rgb(254, 244, 173, 0.5);
+}
+
+.to-article {
+    margin-top: 20px;
+}
+
+.disclaimer {
+    text-align: left;
+}
+

@@ -13,7 +13,7 @@ body {
     text-shadow: 4px 4px #0f2043;
 }
 
-h2 {
+section h2 {
     color: black;
     padding: 0px 0px 4px 0px;
     border-bottom: 3px solid#e8af30;
@@ -78,6 +78,7 @@ nav ul li {
 nav a {
     display: block;
     padding: 16px;
+    color: #fef4ad;
     border-right: 1px solid #e8af30;
 }
 
@@ -85,17 +86,43 @@ nav li:last-child a {
     border: none;
 }
 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
 nav a:link, nav a:visited {
     color:#fef4ad;
 }
 
-nav a:hover:not(.active) {
+.dropdown-content a {   
+    border: none;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    background-color: #3361ac;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
     background-color: #e8af30;
 }
 
 .active {
     background-color: #e8af30;
     color: #fef4ad;
+}
+
+.dropdown-content a:hover {
+    background-color: #6c8abb;
 }
 
 .logo {
@@ -318,15 +345,52 @@ footer {
 }
 
 .f-logo {
-    margin: 8px 4px 8px 4px;
+    margin: auto;
+    margin-left: 6px;
 }
 
 .f-logo img {
     height: 80px;
 }
 
+footer .right {
+    display: flex;
+}
+
 .cont {
     border-left: 4px solid #0f2043;
     padding: 16px;
     color: #0f2043;
+}
+
+.sprites {
+    display: flex;
+    margin: auto;
+    margin-right: 12px;
+}
+
+.sprites a {
+    padding: 0 4px;
+    width: 48px;
+    height: 48px;
+}
+
+.sprite-a {
+    background: url(../images/imagesprites.png) no-repeat -20px -6px;
+}
+
+.sprite-b {
+    background: url(../images/imagesprites.png) no-repeat -80px -6px;
+}
+
+.sprite-c {
+    background: url(../images/imagesprites.png) no-repeat -140px -6px;
+}
+
+.disclaimer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 16px;
+    border: 2px solid #e8af30;
+    background-color: rgba(245, 245, 245, 0.80);
 }

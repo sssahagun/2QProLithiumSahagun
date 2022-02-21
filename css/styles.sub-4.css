@@ -1,0 +1,43 @@
+.header-pic-sub {
+    background-image: url("../images/court.jpg");
+    height: 240px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+}
+
+.header-pic-sub h1 {
+    font-size: 50px;
+    padding-top: 95px;
+    color: whitesmoke;
+    text-shadow: 4px 4px #0f2043;
+}
+
+aside {
+    width: 35%;
+    height: 100%;
+    margin: 0;
+    padding: 40px 0 0 0;
+    position: absolute;
+}
+
+aside img {
+    width: 80%;
+    margin: 12px 0 0 80px;
+}
+
+article {
+    width: 65%;
+    margin-left: 35%;
+    text-align: justify;
+    padding-top: 40px;
+}
+
+article div {
+    margin-bottom: 12px;
+}
+
+article p {
+    margin: 6px 80px 6px 8px;
+}
